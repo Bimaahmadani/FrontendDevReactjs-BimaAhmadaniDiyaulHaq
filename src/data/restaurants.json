@@ -1,0 +1,153 @@
+[
+    {
+      "id": 1,
+      "name": "Sakura Sushi",
+      "photos": ["/img/food 1.jpg"],
+      "categories": ["Japanese"],
+      "rating": 4.7,
+      "priceRange": "$$$",
+      "isOpen": true,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Alice",
+          "rating": 5,
+          "text": "The sushi was fresh and delicious!"
+        },
+        {
+          "id": 2,
+          "image": "/img/Profile.jpg",
+          "name": "Bob",
+          "rating": 4,
+          "text": "Great atmosphere and friendly staff."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Thai Spice",
+      "photos": ["/img/food 2.jpg"],
+      "categories": ["Thai"],
+      "rating": 4.5,
+      "priceRange": "$$",
+      "isOpen": true,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Charlie",
+          "rating": 5,
+          "text": "The Pad Thai is a must-try!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dragon Palace",
+      "photos": ["/img/food 3.jpg"],
+      "categories": ["Chinese"],
+      "rating": 4.3,
+      "priceRange": "$$",
+      "isOpen": false,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "David",
+          "rating": 4,
+          "text": "The dim sum is amazing!"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "La Trattoria",
+      "photos": ["/img/food 4.jpg"],
+      "categories": ["Italian"],
+      "rating": 4.6,
+      "priceRange": "$$$",
+      "isOpen": true,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Eva",
+          "rating": 5,
+          "text": "Best pasta I've ever had!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Le Petit Bistro",
+      "photos": ["/img/food 5.jpg"],
+      "categories": ["French"],
+      "rating": 4.8,
+      "priceRange": "$$$$",
+      "isOpen": true,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Frank",
+          "rating": 5,
+          "text": "The escargot was exquisite!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Big Burger Joint",
+      "photos": ["/img/food 6.jpg"],
+      "categories": ["American"],
+      "rating": 4.2,
+      "priceRange": "$",
+      "isOpen": true,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Grace",
+          "rating": 4,
+          "text": "Great burgers and fries!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Taco Fiesta",
+      "photos": ["/img/food 7.jpg"],
+      "categories": ["Mexican"],
+      "rating": 4.4,
+      "priceRange": "$$",
+      "isOpen": false,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Hank",
+          "rating": 4,
+          "text": "The tacos are so flavorful!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mediterranean Delight",
+      "photos": ["/img/food 8.jpg"],
+      "categories": ["Mediterranean"],
+      "rating": 4.6,
+      "priceRange": "$$$",
+      "isOpen": true,
+      "reviews": [
+        {
+          "id": 1,
+          "image": "/img/Profile.jpg",
+          "name": "Ivy",
+          "rating": 5,
+          "text": "The hummus and falafel are divine!"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Sakura Sushi",
+      "photos": ["https://source.unsplash.com/400x300/?sushi"],
+      "categories": ["Japanese"],
+      "rating": 4.7,
+      "price": "$$",
+      "isOpen": true
+    },
+    {
+      "id": 2,
+      "name": "Great Wall Dimsum",
+      "photos": ["https://source.unsplash.com/400x300/?dimsum"],
+      "categories": ["Chinese"],
+      "rating": 4.5,
+      "price": "$",
+      "isOpen": false
+    },
+    {
+      "id": 3,
+      "name": "Bangkok Spice",
+      "photos": ["https://source.unsplash.com/400x300/?thai-food"],
+      "categories": ["Thai"],
+      "rating": 4.6,
+      "price": "$$",
+      "isOpen": true
+    },
+    {
+      "id": 4,
+      "name": "Napoli Pasta",
+      "photos": ["https://source.unsplash.com/400x300/?pasta"],
+      "categories": ["Italian"],
+      "rating": 4.8,
+      "price": "$$$",
+      "isOpen": true
+    },
+    {
+      "id": 5,
+      "name": "Taco Fiesta",
+      "photos": ["https://source.unsplash.com/400x300/?taco"],
+      "categories": ["Mexican"],
+      "rating": 4.3,
+      "price": "$",
+      "isOpen": false
+    },
+    {
+      "id": 6,
+      "name": "Burger Nation",
+      "photos": ["https://source.unsplash.com/400x300/?burger"],
+      "categories": ["American"],
+      "rating": 4.4,
+      "price": "$$",
+      "isOpen": true
+    },
+    {
+      "id": 7,
+      "name": "Le Gourmet",
+      "photos": ["https://source.unsplash.com/400x300/?french-food"],
+      "categories": ["French"],
+      "rating": 4.9,
+      "price": "$$$$",
+      "isOpen": true
+    },
+    {
+      "id": 8,
+      "name": "Mediterranean Delights",
+      "photos": ["https://source.unsplash.com/400x300/?mediterranean-food"],
+      "categories": ["Mediterranean"],
+      "rating": 4.6,
+      "price": "$$$",
+      "isOpen": false
+    }
+  ]
+  
