@@ -8,10 +8,10 @@ const RestaurantItem = ({ restaurant }) => {
       <img src={restaurant.photos[0]} alt={restaurant.name} className="w-full h-48 rounded-t-lg" />
       <div className="p-4 w-full">
         <h2 className="text-xl font-bold">{restaurant.name}</h2>
-        <RatingStars rating={restaurant.rating} />
+        <RatingStars rating={restaurant.rating} size={20} />
         <p className="text-gray-600 text-medium mt-4">{restaurant.categories[0]}. {restaurant.priceRange}</p>
         <div className='w-full text-end'>
-          <p className={restaurant.isOpen ? 'text-green-500' : 'text-red-500'}>
+          <p className={restaurant.isOpen ? 'text-green-500 uppercase' : 'text-red-500 uppercase'}>
             {restaurant.isOpen ? 'Open' : 'Closed'}
           </p>
         </div>

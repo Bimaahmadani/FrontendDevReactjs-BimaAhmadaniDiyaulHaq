@@ -1,28 +1,19 @@
-import React from "react";
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
-const RatingStars = ({ rating }) => {
-  // Jumlah bintang penuh
+const RatingStars = ({ rating, size = 20 }) => { // Tambahkan prop size dengan default 20px
   const fullStars = Math.floor(rating);
-  // Apakah ada setengah bintang?
   const hasHalfStar = rating % 1 !== 0;
 
   return (
     <div className="flex items-center">
-      {/* Menampilkan bintang penuh */}
       {[...Array(fullStars)].map((_, index) => (
-        <span key={index} className="text-yellow-500 text-xl">&#9733;</span>
+        <FaStar key={index} className="text-yellow-500" size={size} />
       ))}
-
-      {/* Menampilkan setengah bintang jika ada */}
-      {hasHalfStar && <span className="text-yellow-500 text-xl">&#9734;</span>}
-
-      {/* Menampilkan bintang kosong untuk sisa */}
+      {hasHalfStar && <FaStarHalfAlt className="text-yellow-500" size={size} />}
       {[...Array(5 - fullStars - (hasHalfStar ? 1 : 0))].map((_, index) => (
-        <span key={index} className="text-gray-300 text-xl">&#9733;</span>
+        <FaRegStar key={index} className="text-gray-300" size={size} />
       ))}
-
-      {/* Menampilkan angka rating */}
-      <span className="ml-2 text-yellow-500">{rating}</span>
+      <span className="ml-2 text-yellow-500" style={{ fontSize: size * 0.8 }}>{rating}</span>
     </div>
   );
 };
